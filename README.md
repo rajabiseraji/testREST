@@ -1,6 +1,6 @@
-# snappfood
+# test proj
 
-> Snappfood test project
+>  test project
 
 ## Build Setup
 
