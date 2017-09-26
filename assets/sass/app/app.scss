@@ -1,0 +1,293 @@
+@import "../../glyphicons/glyphicons.css";
+@import url(../../farsifont/farsi.css);
+
+body, button, input, optgroup, select, textarea {
+  font-family: "Vazir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: right;
+}
+
+.nav-link.active {
+  color: #18BC9C !important;
+  font-weight: bold;
+}
+
+th {
+  text-align: right;
+}
+
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.h-line {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 1px;
+}
+
+
+a, a:visited, a:focus { 
+    color: white;
+    text-decoration: none
+}
+
+
+
+
+    .glyphicon-minus-sign {
+        color: darkred;
+    }
+    .glyphicon-plus-sign {
+        color: darkgreen;
+    }
+
+    .height-fix {
+        height: 100px;
+    }
+    .card-shadow {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .ribbon {
+        position: absolute;
+        left: -4px; top: -4px;
+        z-index: 1;
+        overflow: hidden;
+        width: 75px; height: 75px;
+        text-align: left;
+    }
+    .ribbon span {
+        font-size: 15px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold; line-height: 20px;
+        transform: rotate(-45deg);
+        width: 100px; display: block;
+        background: #79A70A;
+        background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+        box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+        position: absolute;
+        top: 19px; left: -21px;
+    }
+    .ribbon span::before {
+        content: '';
+        position: absolute;
+        right: 0px; top: 100%;
+        z-index: -1;
+        border-right: 3px solid #79A70A;
+        border-left: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        border-top: 3px solid #79A70A;
+    }
+    .ribbon span::after {
+        content: '';
+        position: absolute;
+        left: 0%; top: 100%;
+        z-index: -1;
+        border-left: 3px solid #79A70A;
+        border-right: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        border-top: 3px solid #79A70A;
+    }
+    .red span {background: linear-gradient(#F70505 0%, #8F0808 100%);}
+    .red span::before {border-left-color: #8F0808; border-top-color: #8F0808;}
+    .red span::after {border-right-color: #8F0808; border-top-color: #8F0808;}
+
+    .blue span {background: linear-gradient(#2989d8 0%, #1e5799 100%);}
+    .blue span::before {border-left-color: #1e5799; border-top-color: #1e5799;}
+    .blue span::after {border-right-color: #1e5799; border-top-color: #1e5799;}
+
+    .fixed-length{
+        min-height: 200px;
+        max-height: 200px;
+        min-width: 200px;
+        max-width: 200px;
+        overflow-y: hidden;
+    }
+
+    .badge-center{
+        position: absolute;
+        bottom: 25px;
+        width: 100%;
+        right:0;
+        left:0;
+    }
+
+    .paginate-button {
+        height: 150px;
+    }
+
+    .glyphicon-menu-left, .glyphicon-menu-right {
+        font-size: 30px;
+    }
+
+    /*
+    ** New Category Styles
+    */
+
+    #mainCategoryItem {
+        // color: whitesmoke;
+        color: black;
+        border-color: gray;
+        border-bottom: 2px;
+    }
+    
+    .fade-enter-active, .fade-leave-active {
+        transition: opacity .5s
+    }
+    .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        opacity: 0
+    }
+
+    .cover-fade-leave-active {
+        transition: opacity .3s;
+        position: absolute;
+        right: 25%;
+    }
+    .cover-fade-enter-active {
+        transition: .5s;
+        -webkit-transition-delay: 1.2s;
+        transition-delay: 1.2s
+    }
+
+
+    .cover-fade-enter, .cover-fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        position: absolute;
+        opacity: 0
+    }
+    
+    .cover-fade-delayed-enter-active {
+        transition: opacity .5s;
+        -webkit-transition-delay: 1s;
+        transition-delay: 1s
+    }
+    .cover-fade-delayed-enter, .cover-fade-delayed-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        opacity: 0
+    }
+
+    .cover-fade-delayed-leave-active {
+        position: absolute;
+        right: 0;
+        transition: opacity .5s;
+    }
+
+    .category-container {
+        background: #660000; 
+        color: whitesmoke; 
+    }
+
+    /*
+    ** New Food Card Styles
+    */
+
+    .new-food-card {
+        border-width: 1px;
+        border-color: #4a5a5a;
+        background: transparent;
+        border-radius: 0;
+        width: 130px;
+        min-height: 150px;
+        max-height: 150px;
+        min-width: 130px;
+        // max-width: 130px;
+        overflow-y: hidden;
+        vertical-align: middle;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .new-food-card:hover {
+        background-color: #A6A6A6;
+        cursor: pointer; 
+    }
+
+    .food-img-top {
+        border: 0px transparent;
+    }
+
+    .food-price {
+        font-size: 10px;
+        color: black
+    }
+
+    .food-card-header {
+        background: #660000;
+        color: whitesmoke;
+        height: 30px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        
+    }
+
+    .food-cover-fade-enter-active, .food-cover-fade-leave-active {
+        transition: opacity .5s;
+    }
+    .food-cover-fade-enter, .food-cover-fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        opacity: 0
+    }
+
+
+    #container {
+        height: 100%;
+        // background: rgb(69,72,77);
+        // background: -moz-linear-gradient(-45deg, rgba(69,72,77,1) 0%, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+        // background: -webkit-linear-gradient(-45deg, rgba(69,72,77,1) 0%,rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+        // background: linear-gradient(135deg, rgba(69,72,77,1) 0%,rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+        // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+    }
+
+
+    .my-table tr,.my-table td{
+        display: inline-block
+    }
+
+    .my-table tr {
+        width: 250px;
+        margin: auto;
+    }
+
+    .my-table td {
+        width: 100%
+    }
+
+    .my-table th, .my-table thead {
+        display: none
+    }
+
+
+    
+@media all and (max-width: 1200px) {
+    /* screen size until 1200px */
+    body {
+        font-size: 1.5em;
+        /* 1.5x default size */
+    }
+}
+
+@media all and (max-width: 1000px) {
+    /* screen size until 1000px */
+    body {
+        font-size: 1.2em;
+        /* 1.2x default size */
+    }
+}
+
+@media all and (max-width: 500px) {
+    /* screen size until 500px */
+    body {
+        font-size: 0.5em;
+        /* 0.8x default size */
+    }
+}

@@ -1,0 +1,5 @@
+@font-face {
+    font-family: Vazir;
+    src: url('yek.woff2') format('woff2'), url('Vazir-FD.woff') format('woff');
+    font-weight: normal;
+}

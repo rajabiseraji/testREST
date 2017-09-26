@@ -1,0 +1,9 @@
+*.iml
+.idea
+node_modules
+*.log*
+config/local.*
+.nuxt
+static/manifest.json
+/.nuxt/
+/node_modules
