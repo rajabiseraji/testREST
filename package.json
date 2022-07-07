@@ -48,7 +48,7 @@
     "js-cookie": "^2.1.4",
     "lodash": "^4.17.4",
     "mini-toastr": "^0.6.5",
-    "moment": "^2.18.1",
+    "moment": "^2.29.4",
     "moment-jalaali": "^0.6.1",
     "node-sass": "^4.5.2",
     "sass-loader": "^6.0.3",
